@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/static/css/main.15661a97.css",
+    "main.js": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/static/js/main.46db77dd.js",
+    "static/js/453.0f2f89dc.chunk.js": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/static/js/453.0f2f89dc.chunk.js",
+    "static/media/pizzaThumb.gif": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/static/media/pizzaThumb.0793d551dc10c92fa0b2.gif",
+    "index.html": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/index.html",
+    "main.15661a97.css.map": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/static/css/main.15661a97.css.map",
+    "main.46db77dd.js.map": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/static/js/main.46db77dd.js.map",
+    "453.0f2f89dc.chunk.js.map": "/AhmedMohamedTaha2/PizzaDiMMichelangelo.git/static/js/453.0f2f89dc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.15661a97.css",
+    "static/js/main.46db77dd.js"
+  ]
+}
