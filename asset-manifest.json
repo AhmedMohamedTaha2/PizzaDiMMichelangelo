@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PizzaDiMMichelangelo/static/css/main.1cf82a5d.css",
-    "main.js": "/PizzaDiMMichelangelo/static/js/main.0b1b5f98.js",
+    "main.js": "/PizzaDiMMichelangelo/static/js/main.e8320772.js",
     "static/js/453.0f2f89dc.chunk.js": "/PizzaDiMMichelangelo/static/js/453.0f2f89dc.chunk.js",
     "static/media/pizzaThumb.gif": "/PizzaDiMMichelangelo/static/media/pizzaThumb.0793d551dc10c92fa0b2.gif",
     "index.html": "/PizzaDiMMichelangelo/index.html",
     "main.1cf82a5d.css.map": "/PizzaDiMMichelangelo/static/css/main.1cf82a5d.css.map",
-    "main.0b1b5f98.js.map": "/PizzaDiMMichelangelo/static/js/main.0b1b5f98.js.map",
+    "main.e8320772.js.map": "/PizzaDiMMichelangelo/static/js/main.e8320772.js.map",
     "453.0f2f89dc.chunk.js.map": "/PizzaDiMMichelangelo/static/js/453.0f2f89dc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1cf82a5d.css",
-    "static/js/main.0b1b5f98.js"
+    "static/js/main.e8320772.js"
   ]
 }
