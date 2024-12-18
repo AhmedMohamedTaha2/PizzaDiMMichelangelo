@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter  as Router, Routes, Route } from "react-router-dom";
 import "../node_modules/preline/dist/preline";
 import "./App.css";
 import GreenSectionComponent from "./Components/Hero section/GreenSection";
