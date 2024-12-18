@@ -51,7 +51,7 @@ export default function HeroSection() {
 
   const style = {
     backgroundColor: '#CD4633',
-    backgroundImage: 'url(/images/aa.svg)',
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/aa.svg)`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundAttachment: 'fixed',
@@ -95,7 +95,7 @@ export default function HeroSection() {
       >
         <img
           className=" rounded-lg hidden sm:block"
-          src="/images/loader3.webp"
+          src={`${process.env.PUBLIC_URL}/images/loader3.webp`}
           alt="Top Pizza"
           style={{
             maxHeight: '300px',
@@ -117,7 +117,7 @@ export default function HeroSection() {
       >
         <img
           className=" rounded-lg hidden sm:block"
-          src="/images/loader3.webp"
+          src={`${process.env.PUBLIC_URL}/images/loader3.webp`}
           alt="Bottom Pizza"
           style={{
             maxHeight: '300px',

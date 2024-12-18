@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function LoginComponent() {
     const BackGroundStyle = {
-        backgroundImage: "url('/images/buttons.png')",
+        backgroundImage: `url('${process.env.PUBLIC_URL}/images/buttons.png')`,
         backgroundSize: "10%",
         backgroundPosition: "start",
         backgroundAttachment: "fixed",

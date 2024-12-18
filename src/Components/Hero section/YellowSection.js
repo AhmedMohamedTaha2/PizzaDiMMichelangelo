@@ -9,7 +9,7 @@ export default function YellowSectionComponent({ setOrderedPizza, setCurrentOrde
 
   const style = {
     backgroundColor: "#F7DC6F",
-    backgroundImage: "url(/images/yellow.png)",
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/yellow.png)`,
     backgroundSize: "30%",
     backgroundPosition: "center",
     backgroundAttachment: "fixed",

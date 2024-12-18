@@ -22,7 +22,7 @@ export default function NavBarComponent() {
             }}
           >
             <img
-              src="/images/logo.png"
+              src={`${process.env.PUBLIC_URL}/images/logo.png`}
               alt="Brand Logo"
               style={{
                 height: "48px",

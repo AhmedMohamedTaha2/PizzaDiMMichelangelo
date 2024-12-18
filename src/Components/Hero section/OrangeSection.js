@@ -22,7 +22,7 @@ export default function OrangeSectionComponent() {
 
   const sectionStyle = {
     backgroundColor: "#CD4633",
-    backgroundImage: "url(/images/bb.png)",
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/bb.png)`,
     backgroundSize: "5%",
     backgroundPosition: "start",
     backgroundAttachment: "fixed",
@@ -30,7 +30,7 @@ export default function OrangeSectionComponent() {
 
   const contentStyle = {
     backgroundColor: "#CD4633",
-    backgroundImage: "url(/images/star.svg)",
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/star.svg)`,
     backgroundSize: "200%",
     backgroundPosition: "680% 50%",
     backgroundAttachment: "fixed",
@@ -71,7 +71,7 @@ export default function OrangeSectionComponent() {
             position: "absolute", 
           }}
           className="scroll-image hidden-right border-2 w-48 h-auto border-black rounded-lg img-animation hidden sm:block"
-          src="/images/bw1.webp"
+          src={`${process.env.PUBLIC_URL}/images/bw1.webp`}
           alt="Example image 1"
         />
         <img
@@ -81,7 +81,7 @@ export default function OrangeSectionComponent() {
             position: "absolute", // Positioned relative to the parent div
           }}
           className="scroll-image hidden-right border-2 w-48 border-black rounded-lg img-animation hidden sm:block"
-          src="/images/bw2.webp"
+          src={`${process.env.PUBLIC_URL}/images/bw2.webp`}
           alt="Example image 2"
         />
         <img
@@ -91,7 +91,7 @@ export default function OrangeSectionComponent() {
             position: "absolute", // Positioned relative to the parent div
           }}
           className="scroll-image hidden-right border-2 w-48 border-black rounded-lg img-animation hidden sm:block"
-          src="/images/bw3.webp"
+          src={`${process.env.PUBLIC_URL}/images/bw3.webp`}
           alt="Example image 3"
         />
       </div>

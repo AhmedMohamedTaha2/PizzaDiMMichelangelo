@@ -5,7 +5,7 @@ import AuthenticationContext from '../../Contexts/AuthenticationContext';
 
 export default function StuffDashBoard() {
   const BgStyle = {
-    backgroundImage: "url('/images/pizzaPattern2.png')",
+    backgroundImage: `url('${process.env.PUBLIC_URL}/images/pizzaPattern2.png')`,
     backgroundSize: "20%",
     backgroundPosition: "start",
     backgroundAttachment: "fixed",
@@ -34,7 +34,7 @@ export default function StuffDashBoard() {
             onClick={() => navigate("/")}
           >
             <img
-              src="/images/logo.png"
+              src={`${process.env.PUBLIC_URL}/images/logo.png`}
               alt="Brand Logo"
               className="h-12 w-12"
             />

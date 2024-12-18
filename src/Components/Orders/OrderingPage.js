@@ -88,7 +88,7 @@ function getCurrentDateTime() {
     ];
 
     const BackGroundStyle = {
-      backgroundImage: "url('/images/buttons.png')",
+      backgroundImage: `url(${process.env.PUBLIC_URL}/images/buttons.png)`,
       backgroundSize: "30%",
       backgroundPosition: "start",
       backgroundAttachment: "fixed",

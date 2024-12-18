@@ -37,7 +37,7 @@ const MovingBanner = ({Content}) => {
         boxSizing: "border-box",
         borderTop: "8px solid #000",
         borderBottom: "8px solid #000",
-        backgroundImage: "url(/images/divider.png)",
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/divider.png)`,
       }}
     >
       <div

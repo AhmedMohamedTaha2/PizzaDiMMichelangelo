@@ -5,7 +5,7 @@ export default function GreenSectionComponent() {
     className="container py-5 px-auto min-h-96 flex items-center justify-center overflow-hidden sm:block hidden"
     style={{
         backgroundColor: "#f4e9dd",
-        backgroundImage: "url(/images/buttons.png)",
+        backgroundImage: `url(${process.env.PUBLIC_URL}/images/buttons.png)`,
         backgroundSize: "30%",
         backgroundPosition: "center",
         backgroundAttachment: "fixed",
@@ -13,7 +13,7 @@ export default function GreenSectionComponent() {
     }}
 >
     <img
-        src="/images/222.webp"
+        src={`${process.env.PUBLIC_URL}/images/222.webp`}
         alt="Decorative Image"
         className="w-2/3 h-auto object-contain  slide-top-alternate-reverse"
         style={{

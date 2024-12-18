@@ -37,7 +37,7 @@ export default function OrderDetails({ setOrderData }) {
         <p className="text-xl text-red-500 italic font-bold">
           No pizza here! <br /> Aliens stole it.
         </p>
-        <img src="/images/aliens.webp" alt="Aliens Stole Pizza" className="mx-auto mt-4" />
+        <img src={`${process.env.PUBLIC_URL}/images/aliens.webp`}  alt="Aliens Stole Pizza" className="mx-auto mt-4" />
         <p className="text-white mt-4">Redirecting to the homepage...</p>
       </div>
     );

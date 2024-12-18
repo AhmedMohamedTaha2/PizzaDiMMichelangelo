@@ -13,7 +13,7 @@ export default function YourOrderOnTheWay() {
   }, [navigate]);
 
   const BackGroundStyle = {
-    backgroundImage: "url('/images/buttons.png')",
+    backgroundImage: `url(${process.env.PUBLIC_URL}/images/buttons.png)`,
     backgroundSize: "30%",
     backgroundPosition: "start",
     backgroundAttachment: "fixed",
@@ -25,7 +25,7 @@ export default function YourOrderOnTheWay() {
     <div className="w-full h-full bg-emerald-800 flex flex-col justify-center items-center" style={BackGroundStyle}>
       <div className=" flex flex-col justify-center items-center bg-emerald-900 bg-opacity-40 shadow-xl backdrop-blur-xl p-10 border-2 border-emerald-400 rounded-lg">
         <h1 className="text-8xl italic text-yellow-300 font-bold">Your order is on the way!</h1>
-        <img src="/images/delivary.webp" alt="Order on the way" />
+        <img src={`${process.env.PUBLIC_URL}/images/delivary.webp`} alt="Order on the way" />
       </div>
     </div>
   );

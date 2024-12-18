@@ -40,7 +40,7 @@ const RatingSection = () => {
                             </p>
                         </div>
                         <img
-                            src="/images/tmnt1.webp"
+                            src={`${process.env.PUBLIC_URL}/images/tmnt1.webp`}
                             alt="Pizza Image 1"
                             className="w-full rounded-lg object-cover mt-4 hidden lg:block"  
                         />
@@ -49,7 +49,7 @@ const RatingSection = () => {
                     {/* Column 2 */}
                     <div className="flex flex-col items-center justify-between">
                         <img
-                            src="/images/tmnt2.webp"
+                            src={`${process.env.PUBLIC_URL}/images/tmnt2.webp`}
                             alt="Pizza Image 2"
                             className="w-full rounded-lg object-cover mb-4 hidden lg:block"  
                         />
@@ -84,7 +84,7 @@ const RatingSection = () => {
                             </p>
                         </div>
                         <img
-                            src="/images/tmnt3.webp"
+                            src={`${process.env.PUBLIC_URL}/images/tmnt3.webp`}
                             alt="Pizza Image 3"
                             className="w-full rounded-lg object-cover mt-4 hidden lg:block"  
                         />
@@ -94,10 +94,10 @@ const RatingSection = () => {
 
             {/* Awards Section */}
             <div className="mt-12 w-full sm:w-2/3 lg:w-2/6 mx-auto flex flex-row justify-around items-center flex-wrap">
-                <img src="/images/award1.webp" className="w-32 mb-4 sm:mb-0 md:mb-4" />
-                <img src="/images/award3.webp" className="w-32 mb-4 sm:mb-0 md:mb-4" />
-                <img src="/images/award2.webp" className="w-32 mb-4 sm:mb-0 md:mb-4" />
-                <img src="/images/award4.webp" className="w-32  mb-4 sm:mb-0 md:mb-4" />
+                <img src={`${process.env.PUBLIC_URL}/images/award1.webp`} className="w-32 mb-4 sm:mb-0 md:mb-4" />
+                <img src={`${process.env.PUBLIC_URL}/images/award3.webp`} className="w-32 mb-4 sm:mb-0 md:mb-4" />
+                <img src={`${process.env.PUBLIC_URL}/images/award2.webp`} className="w-32 mb-4 sm:mb-0 md:mb-4" />
+                <img src={`${process.env.PUBLIC_URL}/images/award4.webp`} className="w-32  mb-4 sm:mb-0 md:mb-4" />
             </div>
         </div>
     );
